@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://www.cheapdomains.com.au/" />
+<title>42</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">42</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/register/member_register_test.php</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=first_name</td>
+	<td>Fred</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=last_name</td>
+	<td>Smith</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=address</td>
+	<td>Lincoln street 20</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=city</td>
+	<td>London</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=country_name</td>
+	<td>label=United Kingdom</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=post_code</td>
+	<td>01001</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=state_field</td>
+	<td>Angus</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=phone_number</td>
+	<td>+8(499)2574780</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=email</td>
+	<td>fred.smith@gmail.com</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=account_type_personal</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=username</td>
+	<td>fredsmith</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=password</td>
+	<td>123456</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//input[@name='Submit'])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>runScript</td>
+	<td>css=tr[id=first_name] input</td>
+	<td>javascript{inputField.sendKeys(Fred)}</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=(//input[@name='Submit'])[2]</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
